@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--#51C4D4-->
+    <!--#99e1ea-->
+<!--#eac752-->
+    <color name="colorPrimary">#eac752</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="meunBack">#eac752</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="TEST">#f4e5cb</color>
+
+    <color name="ANO_GRAY">#999</color>
+</resources>

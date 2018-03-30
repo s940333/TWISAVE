@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.tien.myapplication.MainActivity">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        app:showAsAction="always"
+        android:title="回首頁">
+    </item>
+
+</menu>

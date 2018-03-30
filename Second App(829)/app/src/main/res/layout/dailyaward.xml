@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize = "26sp"
+            android:text="本日獎勵"
+            android:id="@+id/textView15"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="500dp"
+            android:id="@+id/imgAward"
+            android:layout_gravity="center_horizontal" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/meunBack">
+
+            <Button
+                android:layout_width="96dp"
+                android:layout_height="58dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/button2"
+                android:background="@drawable/menu_long_1" />
+
+            <Button
+                android:layout_width="96dp"
+                android:layout_height="58dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/button"
+                android:background="@drawable/menu_long_2" />
+
+            <Button
+                android:layout_width="96dp"
+                android:layout_height="58dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/button3"
+                android:background="@drawable/menu_long_3" />
+
+            <Button
+                android:layout_width="96dp"
+                android:layout_height="58dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/button4"
+                android:background="@drawable/menu_long_4" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

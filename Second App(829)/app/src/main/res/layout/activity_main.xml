@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:gravity="bottom">
+
+    <ProgressBar
+        android:id="@+id/ProgressBar"
+        style="@style/auto_play"
+        android:layout_width="390dp"
+        android:layout_height="351dp"
+        android:layout_weight="0.99"
+        android:layout_gravity="center"></ProgressBar>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/meunBack">
+
+        <Button
+            android:layout_width="96dp"
+            android:layout_height="65dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/button2"
+            android:background="@drawable/menu_long_1"
+            />
+
+        <Button
+            android:layout_width="96dp"
+            android:layout_height="65dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/button"
+            android:background="@drawable/menu_long_2" />
+
+        <Button
+            android:layout_width="96dp"
+            android:layout_height="65dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/button3"
+            android:background="@drawable/menu_long_3" />
+
+        <Button
+            android:layout_width="96dp"
+            android:layout_height="65dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/button4"
+            android:background="@drawable/menu_long_4" />
+    </LinearLayout>
+</LinearLayout>

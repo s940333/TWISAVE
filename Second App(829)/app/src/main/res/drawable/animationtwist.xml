@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/dailymachine" android:duration="300"></item>
+    <item android:drawable="@drawable/dailymachine1" android:duration="600"></item>
+    <item android:drawable="@drawable/dailymachine" android:duration="300"></item>
+    <item android:drawable="@drawable/dailymachine1" android:duration="600"></item>
+    <item android:drawable="@drawable/dailymachine" android:duration="300"></item>
+    <item android:drawable="@drawable/dailymachine1" android:duration="600"></item>
+    <item android:drawable="@drawable/dailymachine2" android:duration="500"></item>
+    <item android:drawable="@drawable/dailymachine3" android:duration="500"></item>
+    <item android:drawable="@drawable/dailymachine4" android:duration="500"></item>
+    <item android:drawable="@drawable/dailymachine5" android:duration="1000"></item>
+
+</animation-list>

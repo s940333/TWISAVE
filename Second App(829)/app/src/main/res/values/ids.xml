@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="add"></item>
+    <item type="id" name="daily"></item>
+    <item type="id" name="record"></item>
+    <item type="id" name="addfirst"></item>
+</resources>

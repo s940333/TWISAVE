@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TWISAVE</string>
+    <string name="titleTarget">設定目標</string>
+    <string name="Target1">旅遊</string>
+    <string name="Target2">教育</string>
+    <string name="Target3"> 3C </string>
+    <string name="Target4"> 食 </string>
+    <string name="Target5"> 衣 </string>
+    <string name="Target6"> 住 </string>
+    <string name="Target7"> 行 </string>
+    <string name="Target8"> 育 </string>
+    <string name="Target9"> 樂 </string>
+</resources>

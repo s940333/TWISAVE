@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/add"
+    android:gravity="center_vertical|bottom">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+           android:textSize="30dp"
+            android:text="目標"
+            android:id="@+id/textView28"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/targetitem_1"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.45">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_gravity="center_horizontal">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.05">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize = "26sp"
+                        android:text="備註："
+                        android:id="@+id/textView2" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText"
+                        android:layout_weight="1"
+                        android:imeOptions="actionDone"
+                        android:singleLine="true"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize = "26sp"
+                        android:text="金額："
+                        android:id="@+id/textView3" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText2"
+                        android:inputType="number"
+                        android:ems="10"
+                        android:layout_weight="1" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                >
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|bottom"
+            android:gravity="center_vertical">
+
+            <Button
+                android:layout_width="365dp"
+                android:layout_height="40dp"
+                android:text="OK"
+                android:textColor="#FFFFFF"
+                android:background="@color/meunBack"
+                android:id="@+id/button5"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/meunBack"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:layout_width="96dp"
+            android:layout_height="65dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/button2"
+            android:background="@drawable/menu_long_1" />
+
+        <Button
+            android:layout_width="96dp"
+            android:layout_height="65dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/button"
+            android:background="@drawable/menu_long_2" />
+
+        <Button
+            android:layout_width="96dp"
+            android:layout_height="65dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/button3"
+            android:background="@drawable/menu_long_3" />
+
+        <Button
+            android:layout_width="96dp"
+            android:layout_height="65dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/button4"
+            android:background="@drawable/menu_long_4" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
